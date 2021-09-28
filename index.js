@@ -32,7 +32,7 @@ var bis = 219
 //console.log(test !== bis) // strictement différent de
 
 var limit = 50
-var score = 6
+var score = 64
 
 if (score >= limit){
     //console.log("Ok good !")
@@ -49,7 +49,7 @@ if(password.length > 5){
 if(score >= limit && password.length > 5){
     //console.log("Everything is good")
 }else if 
-    (score >= limit || password.length > 20){
+    (score >= limit || password.length > 5){
         //console.log("Something is good")
     }else{
         //console.log("Nothing is good")
@@ -67,23 +67,36 @@ var month = "April"
 
 switch (month) {
 	case "January": 
-		console.log("Winter");
+		//console.log("Winter");
 		break;
 	case "April": 
-		console.log("spring");
+		//console.log("spring");
 		break;
 	case "July": 
-		console.log("Summer");
+		//console.log("Summer");
 		break;
 	case "September": 
-		console.log("fall");
+		//console.log("Automn");
 		break;
 	default: 
-		console.log("no");
+		//console.log("no");
 }
 
 var roundeNumber = 3.6
 
+if (roundeNumber + 0.5 >= Math.floor(roundeNumber) +1){
+    //console.log(Math.ceil(roundeNumber))
+}else{
+    //console.log(Math.floor(roundeNumber))
+}
+
+var roundeNumber = 3.6
+
+if (roundeNumber - 0.4 >= Math.floor(roundeNumber) ){
+    //console.log(Math.floor(roundeNumber))
+}else{
+    //console.log(Math.ceil(roundeNumber))
+}
 
 
 
